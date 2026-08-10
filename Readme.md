@@ -6,19 +6,19 @@ The script sends the required POST request for each shared file, extracts the `h
 
 ## Features
 
-- Extracts direct download URLs automatically
-- Processes multiple links sequentially
-- 1-second delay between requests
-- Progress logging in the browser console
-- Automatically downloads the results as `Out_Direct_Links.txt`
-- No external dependencies
+* Extracts direct download URLs automatically
+* Processes multiple links sequentially
+* 1-second delay between requests
+* Progress logging in the browser console
+* Automatically downloads the results as `Out_Direct_Links.txt`
+* No external dependencies
 
 ## Requirements
 
 This repository contains two scripts:
 
-- **fitgirl-extract.js** - Extracts all FuckingFast links from a FitGirl repack page.
-- **extract-direct.js** - Converts those links into direct download URLs.
+* **fitgirl-extract.js** - Extracts all FuckingFast links from a FitGirl repack page.
+* **extract-direct.js** - Converts those links into direct download URLs.
 
 ## Usage
 
@@ -40,12 +40,12 @@ This repository contains two scripts:
 
 The script will:
 
-- Process every link
-- Print progress in the console
-- Extract the direct download URL from each page
-- Automatically download the results as:
+* Process every link
+* Print progress in the console
+* Extract the direct download URL from each page
+* Automatically download the results as:
 
-```
+```text
 Out_Direct_Links.txt
 ```
 
@@ -56,7 +56,7 @@ For every link, the script:
 1. Extracts the file ID.
 2. Sends a POST request to:
 
-```
+```text
 /f/{id}/go
 ```
 
@@ -66,16 +66,30 @@ For every link, the script:
 
 ## Example Output
 
-```
+```text
 https://cdn1.example.com/file1.rar
 https://cdn2.example.com/file2.rar
 https://cdn3.example.com/file3.rar
 ```
 
+## Related Projects
+
+### FFBypasser Userscript
+
+For users who prefer a browser userscript, you can also use **FFBypasser**, the userscript version of this project.
+
+### FFBypasser GUI
+
+A community-created GUI implementation is also available as a separate fork:
+
+**FFBypasser-GUI** by INMENR.
+
+This GUI is an independent project built around FFBypasser functionality.
+
 ## Notes
 
-- Run **`fitgirl-extract.js`** only on a FitGirl game page.
-- Run **`extract-direct.js`** only after opening the **first FuckingFast link** in your browser.
-- The script uses relative requests, so it must be executed from a FuckingFast page.
-- A 1-second delay is included between requests to avoid sending them too quickly.
-- Failed requests are reported in the browser console without stopping the extraction.
+* Run **`fitgirl-extract.js`** only on a FitGirl game page.
+* Run **`extract-direct.js`** only after opening the **first FuckingFast link** in your browser.
+* The script uses relative requests, so it must be executed from a FuckingFast page.
+* A 1-second delay is included between requests to avoid sending them too quickly.
+* Failed requests are reported in the browser console without stopping the extraction.
