@@ -78,13 +78,9 @@ https://cdn3.example.com/file3.rar
 
 For users who prefer a browser userscript, you can also use **FFBypasser**, the userscript version of this project.
 
-### [FFBypasser GUI](https://github.com/INMENR/FFBypasser-GUI)
+### [FFBypasser GUI BY INMENR](https://github.com/INMENR/FFBypasser-GUI)
 
 A community-created GUI implementation is also available as a separate fork.
-
-**FFBypasser-GUI** by **INMENR**.
-
-This GUI is an independent project built around FFBypasser functionality.
 
 ## Notes
 
