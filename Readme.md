@@ -82,6 +82,13 @@ For users who prefer a browser userscript, you can also use **FFBypasser**, the 
 
 A community-created GUI implementation is also available as a separate fork.
 
+## Support
+
+If you find this project useful and want to support its development:
+
+[Support me on Ko-fi](https://ko-fi.com/s_x7ui)
+
+
 ## Notes
 
 * Run **`fitgirl-extract.js`** only on a FitGirl game page.
